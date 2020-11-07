@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	{% load static %}
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/design.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/animation.css'%}">
+		<link href="https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <title>Graphic Design</title>
+        <style>
+            body.circle1{
+                background-image: url("{% static 'images/logo2.gif' %}");
+            }
+            .channel-2{
+                background-image: url("{% static 'images/logo-sketch.png' %}");
+            }
+            body.circle3{
+                background-image: url("{% static 'images/logo4.png' %}");
+            }
+            body.circle4{
+                background-image: url("{% static 'images/Maze_Still_1.gif' %}");
+            }
+            body.circle5{
+                background-image: url("{% static 'images/Maze-r-1.gif' %}");
+            }
+            .channel-3{
+                background-image: url("{% static 'images/404_Description.png' %}");
+                background-size: cover;
+                
+            }
+            body.circle7{
+                background-image: url("{% static 'images/404-bold.png' %}");
+            }
+            body.circle8{
+                background-image: url("{% static 'images/stuhl-web.jpg' %}");
+                background-position:bottom;
+                transition: 15s;
+            }
+            body.circle9{
+                background-image: url("{% static 'images/stuhl-banner.png' %}");
+                background-position:center;
+                transition: 10s;
+            }
+            body.circle10{
+                background-image: url("{% static 'images/stuhl-measure.png' %}");
+            }
+            body.circle11{
+                background-image: url("{% static 'images/stuhl-chairs.png' %}");
+            }
+            body.circle12{
+                background-image: url("{% static 'images/poster.png' %}");
+            }
+            body.circle13{
+                background-image: url("{% static 'images/lolla-web.jpg' %}");
+            }
+            body.circle14{
+                background-image: url("{% static 'images/tshirt4.jpg' %}");
+                background-position:center;
+                transition: 5s;
+            }
+            
+        </style>
+	</head>
+	
+	<body>
+		<container>
+		
+		<!--The Logo as SVG file -->
+		<section>
+            <div class="tint"></div>
+			<a href="/contact"><div class="wrapper">
+                {% include 'snippets/ra.html' %}
+                contact
+				</a>
+			</div>
+		</section>
+		
+		<section>
+		
+			<div id="circle-1" >
+			</div>
+			<div class="channel">
+                <div class="channel-404">{% include 'snippets/ra.html' %}</div>
+                
+				<h3>Artist Logo</h3>
+				<p>A logo is a mark of expression that represents and defines a person or company. This logo motivates me to manifest innovative ideas and creative solutions. It is the hallmark for everything I do. Inspired by <I>the eye of Ra</I>, this logo crafted by simple geometric shapes exudes minimalism.</p>
+			</div>
+			
+		</section>
+		<section>
+		<h3>Samples</h3>
+			<div id="circle-2"></div>
+			<div id="circle-3"></div>
+			<div id="channel2"></div>
+		</section>
+		
+		
+		<!--Project 404-->
+		
+		<section>
+			<div class="channel-404">{% include 'snippets/logo1.html'%}</div>
+            
+            <div class="channel">
+			<h2 class="pro">Project 404</h2>	
+            </div>
+            
+		</section>
+		
+		<section>
+			<div id="circle-4"></div>
+			
+			<div class="channel">
+				<h1 class="pro">Overview</h1>
+				<p class="pro">Project 404 explores the dualism of mobility as it
+pertains to the physical and virtual realms. This dualism examines the attributes of function and
+form, drawing evidence that devices and active systems reflect most antiquated communication methods
+(e.g., cave paintings and hieroglyphs). The name, inspired by an error in response to a client request, questions the overall state of existence 
+in pertinence to physical perception and mental projection in the context of mobility.</p>
+			</div>
+		</section>
+		
+		<!-- This is the animation which will play from another css file-->
+		
+		
+		<section>
+		<div class="channel-z">
+			<div class="move-1">
+                {% include 'snippets/logo2.html'%}
+			</div>
+			<div class="move-2">
+				{% include 'snippets/logo3.html'%}
+			</div>
+			
+			<div class="move-3">
+				{% include 'snippets/logo4.html'%}
+			</div>
+			
+			
+			<div class="move-2">
+				{% include 'snippets/logo5.html'%}
+			</div>
+		
+	
+		
+		<div class="move-3">
+			{% include 'snippets/logo6.html'%}
+		</div>
+		<div class="move-2">
+            {% include 'snippets/logo7.html'%}
+		</div>
+		<!-- Animation ends here -->
+		</section>
+		<section>
+			<h3 class="pro">Typeface</h3>
+			<div id="circle-5"></div>
+			<div id="circle-6"></div>
+			<div id="circle-7"></div>
+			<a class="more-pro" href="/pro404"><h2 class="pro-2">View More</h2></a>
+			<div id="channel3"></div>
+		</section>
+		
+
+		<section>
+			<div class="wrapper-2">
+                {% include 'snippets/logo10.html'%}
+			</div>
+
+			<div class="channel">
+				<h2 class="stuhl">STUHL | The Edge of Tomorrow</h2>
+			</div>
+		</section>
+		
+		<section>
+			<div id="circle-8"></div>
+			<div class="channel">
+			<h3 class="stuhl">Overview</h3>
+			<p class="stuhl">Introducing the edge of the tomorrow, Stuhl. This contemporary and well crafted furniture needed a brand identity to complete such a compelling product. The name <span class="italics">Stuhl</span> fits best to represent a masterpiece manufactured by a german chair company. The structure of the chair and its design is sleek and sturdy. This chair is also light weight and made from sustainable materials.</p>
+			</div>
+		</section>
+		<section>
+			<h3 class="stuhl">Compositions</h3>
+			<div id="circle-9"></div>
+			<div id="circle-10"></div>
+			<div id="circle-11"></div>
+			
+		</section>
+		<section>
+			<div class="wrapper-2">
+                {% include 'snippets/logo9.html'%}
+            </div>
+            <h2 class="lolla">LOLLAPALOOZA | Campaign Design</h2>
+		</section>
+		<section>
+			<div id="circle-12">
+            </div>
+			<div class="channel">
+				<h3 class="lolla">Overview</h3>
+				<p class="lolla">Lollapalooza is a music festival held annually  in Chicago. It features main stream artist, bringing a range of music genres together. For this project I created a design campaign to encompass an EDM (electronic dance music) theme for the Lollapalooza brand. The campaign consist of a promotional poster, website, and logo design. </p>
+				
+			</div>
+			
+		</section>
+		<section>
+			<h3 class="lolla">Samples</h3>
+			<div id="circle-13"></div>
+			<div id="circle-14"></div>
+			<div id="circle-15"></div>
+		</section>
+				
+	</container>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="{% static 'js/bg.js' %}"></script>
+	</body>
+	
+	<footer>
+	</footer>
+	
+</html>

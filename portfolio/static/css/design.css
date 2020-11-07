@@ -1,0 +1,1628 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:black;
+	transition-timing-function: ease-in-out;
+	transition:2s;
+}
+
+
+/* all this body!!! (This is where all the background images come in)*/
+
+body.circle1{
+	margin:0;
+	padding:0;
+	background-image: url('logo2.gif');
+	background-attachment: fixed;
+	background-size:auto;
+	transition:10s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	
+}
+
+body.circle2{
+	margin:0;
+	padding:0;
+	background-image: url('logo-sketch.png');
+	background-attachment: fixed;
+	background-size:cover;
+	transition:10s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	
+}
+
+body.circle3{
+	margin:0;
+	padding:0;
+	background-image: url('logo4.gif');
+	background-attachment: fixed;
+	background-size:cover;
+	transition:10s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	
+}
+
+body.circle4{
+	margin:0;
+	padding:0;
+	background-image: url('maze_still_1.gif');
+	background-attachment: fixed;
+	background-size:auto;
+	transition:10s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	
+}
+
+body.circle5{
+	margin:0;
+	padding:0;
+	background-image: url('maze-r-1.gif');
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center center;
+	transition:10s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	
+}
+
+body.circle6{
+	margin:0;
+	padding:0;
+	background-image: url('404-bold.png');
+	background-attachment: fixed;
+	background-size:contain;
+	transition:10s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	
+}
+
+body.circle7{
+	margin:0;
+	padding:0;
+	background-image: url('404_description.png');
+	background-attachment:fixed;
+	background-size:cover;
+	transition:10s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	
+}
+
+body.circle8{
+	margin:0;
+	padding:0;
+	background-image: url('stuhl-web.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	transition:10s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+
+body.circle9{
+	margin:0;
+	padding:0;
+	background-image: url('stuhl-measure.png');
+	background-attachment: fixed;
+	background-size:cover;
+	transition:60s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+
+body.circle10{
+	margin:0;
+	padding:0;
+	background-image: url('stuhl-banner.png');
+	background-attachment: fixed;
+	background-position:right center;
+	background-size:cover;
+	transition:60s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+
+body.circle11{
+	margin:0;
+	padding:0;
+	background-image: url('stuhl-chairs.png');
+	background-attachment: fixed;
+	background-position: center right;
+	background-size:cover;
+	transition:60s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+
+body.circle12{
+	margin:0;
+	padding:0;
+	background-image: url('poster.png');
+	background-attachment: fixed;
+	background-size:cover;
+	transition:60s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+
+body.circle13{
+	margin:0;
+	padding:0;
+	background-image: url('tshirt1.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	transition:60s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+
+body.circle14{
+	margin:0;
+	padding:0;
+	background-image: url('tshirt4.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center bottom;
+	transition:60s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+
+
+
+ul{
+	margin:0;
+	padding:0;
+	display:flex;
+}
+a.more-pro{
+	width:auto;
+	transition: 1s;
+	transition-timing-function: ease-in-out;
+}
+a.more-pro:hover{
+	width:auto;
+	border:1px solid blue;
+	border-radius: 10em;
+	transition: .5s;
+	transition-timing-function: ease-in-out;
+	
+}
+a{
+	list-style-type: none;
+	text-decoration: none;
+	padding:20px;
+	margin:auto;
+	color:grey;
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
+
+a:nth-child(1):hover{
+	list-style-type: none;
+	padding:20px;
+	margin:auto;
+	color:#35ffab;
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
+
+a:nth-child(2):hover{
+	list-style-type: none;
+	padding:20px;
+	margin:auto;
+	color:#35ffab;
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
+
+a:nth-child(3):hover{
+	list-style-type: none;
+	padding:20px;
+	margin:auto;
+	color:#ffa244;
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
+
+a:nth-child(4):hover{
+	list-style-type: none;
+	padding:20px;
+	margin:auto;
+	color:#aaffdc;
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
+
+a:nth-child(5):hover{
+	list-style-type: none;
+	padding:20px;
+	margin:auto;
+	color:#ff1f6d;
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
+/* Typography */
+
+h1{
+	font-family: 'Barlow', sans-serif;
+	font-weight:900;
+	font-size:5em;
+	letter-spacing: 5px;
+	color:#35ffab;
+	margin:20px;
+	text-align: center;
+}
+
+h1.center{
+	font-family: 'Barlow', sans-serif;
+	font-weight:900;
+	font-size:5em;
+	letter-spacing: 5px;
+	color:#35ffab;
+	margin:0;
+	text-align:center;
+}
+
+h2{
+	font-family: 'Barlow', sans-serif;
+	font-weight:600;
+	font-style: italic;
+	font-size:2em;
+	margin:20px;
+	letter-spacing:2px;
+	color:#35ffab;
+	
+}
+
+h3{
+	font-family: 'Barlow', sans-serif;
+	font-weight:700;
+	font-size:3em;
+	margin:20px;
+	color:#35ffab;
+	
+}
+
+p{
+	font-family: 'Barlow', sans-serif;
+	font-weight:600;
+	font-size:1.5em;
+	color:#35ffab;
+	margin:20px;
+	line-height: 2em;
+	width:60%;
+}
+
+/*Type for Project 404 */
+@font-face {
+	font-family: 'C404BoldOnly-Regular-2';
+	src: url('fonts/C404BoldOnly-Regular-2.otf');  
+}
+
+h1.pro{
+	font-family: 'C404BoldOnly-Regular-2', sans-serif;
+	font-weight:700;
+	font-size:3em;
+	color:blue;
+	margin:0px;
+	text-align: left;
+}
+
+h1.center{
+	font-family: 'Barlow', sans-serif;
+	font-weight:900;
+	font-size:5em;
+	letter-spacing: 5px;
+	color:blue;
+	margin:0;
+	text-align:center;
+}
+
+h2.pro{
+	font-family: 'Barlow', sans-serif;
+	font-weight:600;
+	font-style: italic;
+	font-size:2em;
+	letter-spacing:2px;
+	color:blue;
+	margin:20px;
+}
+h2.pro-2{
+	font-family: 'Barlow', sans-serif;
+	font-weight:600;
+	font-style: italic;
+	font-size:1em;
+	letter-spacing:2px;
+	color:blue;
+	margin: 0;
+}
+
+h3.pro{
+	font-family: 'Barlow', sans-serif;
+	font-weight:700;
+	font-size:3em;
+	color:blue;
+	margin:20px;
+}
+
+p.pro{
+	font-family: 'Barlow', sans-serif;
+	font-weight:600;
+	font-size:1.5em;
+	color:blue;
+	margin:20px;
+	line-height: 2em;
+	width:60%;
+
+}
+p.code{
+	font-family: 'C404BoldOnly-Regular-2', sans-serif;
+	font-weight:600;
+	font-size:7em;
+	color:blue;
+	margin:20px;
+	text-align: center;
+	letter-spacing: .1em;
+	line-height: 1em;
+	width:100%;
+	
+}
+
+/* Type for Sthul */
+
+h1.stuhl{
+	font-family: 'Barlow', sans-serif;
+	font-weight:900;
+	font-size:5em;
+	letter-spacing: 5px;
+	color:#cfd9d8;
+	margin:20px;
+	text-align: center;
+}
+
+h1.stuhl{
+	font-family: 'Barlow', sans-serif;
+	font-weight:900;
+	font-size:5em;
+	letter-spacing: 5px;
+	color:#cfd9d8;
+	margin:20px;
+	text-align:center;
+}
+
+h2.stuhl{
+	font-family: 'Barlow', sans-serif;
+	font-weight:600;
+	font-style: italic;
+	font-size:2em;
+	color:#cfd9d8;
+	margin:20px;
+}
+
+h3.stuhl{
+	font-family: 'Barlow', sans-serif;
+	font-weight:700;
+	font-size:3em;
+	color:#cfd9d8;
+	margin:20px;
+}
+
+p.stuhl{
+	font-family: 'Barlow', sans-serif;
+	font-weight:600;
+	font-size:1.5em;
+	color:#cfd9d8;
+	margin:20px;
+	line-height: 2em;
+	width:60%;
+
+}
+/* Type for Lollapalooza */
+
+h1.lolla{
+	font-family: 'Barlow', sans-serif;
+	font-weight:900;
+	font-size:5em;
+	letter-spacing: 5px;
+	color:#ff1f6d;
+	margin:20px;
+	text-align:center;
+}
+
+h2.lolla{
+	font-family: 'Barlow', sans-serif;
+	font-weight:600;
+	font-style: italic;
+	font-size:2em;
+	color:#ff1f6d;
+	margin:20px;
+}
+
+h3.lolla{
+	font-family: 'Barlow', sans-serif;
+	font-weight:700;
+	font-size:3em;
+	color:#ff1f6d;
+	margin:20px;
+}
+
+p.lolla{
+	font-family: 'Barlow', sans-serif;
+	font-weight:600;
+	font-size:1.5em;
+	color:#ff1f6d;
+	margin:20px;
+	line-height: 2em;
+	width:60%;
+
+}
+
+
+
+span.italics{
+	font-style: italic;
+	font-weight: 600;
+}
+
+span.italics-blue{
+	font-style: italic;
+	font-weight: 400;
+	color:#42c7ff;
+}
+
+/* Bits and Pieces */
+
+section{
+	width:100vw;
+	height:auto;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+section.left{
+	width:100vw;
+	height:auto;
+	display:flex;
+	justify-content: left;
+	align-items: baseline;
+}
+#hide{
+	width:auto;
+	margin:50px;
+	padding: 20px;
+	display:none;
+}
+.channel-hide{
+	display:none;
+}
+.channel{
+	width:auto;
+	margin:50px;
+	padding: 20px;
+}
+.channel-404{
+	width:15%;
+	margin:50px;
+	padding: 20px;
+}
+#channel2{
+	width:400px;
+	height:400px;
+}
+.channel-2{
+	background-image: url('logo-sketch.png');
+	background-size:cover;
+}
+#channel3{
+	width:600px;
+	height:600px;
+}
+.channel-3{
+	background-image: url('404-bold.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+
+.channel-z{
+	z-index: -1;
+	width:100%;
+	height:500px;
+	overflow: hidden;
+}
+
+	
+/* Circles!!! (This shit is a whole mess sorry!)*/
+
+#circle-1{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: glow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-1:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#35ffab;
+	border:1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-2{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: glow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-2:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#35ffab;
+	border: 1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-3{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: glow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-3:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#35ffab;
+	border: 1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-4{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: blueglow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-4:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:blue;
+	border: 1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-5{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: blueglow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-5:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:blue;
+	border: 1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-6{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: blueglow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-6:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:blue;
+	border: 1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-7{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: blueglow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+	
+#circle-7:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:blue;
+	border: 1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-8{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: stuhl;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-8:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#cfd9d8;
+	border: 1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-9{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: stuhl;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-9:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#cfd9d8;
+	border: 1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-10{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: stuhl;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-10:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#cfd9d8;
+	border: 1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-11{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: stuhl;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-11:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#cfd9d8;
+	border: 1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-12{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: lolla;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-12:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#ff1f6d;
+	border: 1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-13{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: lolla;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-13:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#ff1f6d;
+	border: 1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-14{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	border:1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: lolla;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-14:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#ff1f6d;
+	border: 1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+@keyframes glow{
+	0%{
+		
+		border:1px solid #35ffab;
+		
+		
+	}
+	50%{
+		
+		background-color:#35ffab ;
+	}
+	
+	100%{
+		
+		border:1px solid #35ffab;
+		
+	}
+	
+	
+}
+
+@keyframes blueglow{
+	0%{
+		
+		border:1px solid blue;
+		
+		
+	}
+	50%{
+		
+		background-color:blue ;
+	}
+	
+	100%{
+		
+		border:1px solid blue;
+		
+	}
+	
+	
+}
+@keyframes stuhl{
+	0%{
+		
+		border:1px solid #cfd9d8;
+		
+		
+	}
+	50%{
+		
+		background-color:#cfd9d8 ;
+	}
+	
+	100%{
+		
+		border:1px solid #cfd9d8;
+		
+	}
+	
+	
+}
+
+@keyframes lolla{
+	0%{
+		
+		border:1px solid #ff1f6d;
+		
+		
+	}
+	50%{
+		
+		background-color:#ff1f6d ;
+	}
+	
+	100%{
+		
+		border:1px solid #ff1f6d;
+		
+	}
+	
+	
+}
+
+
+.hero{
+	width:100vw;
+	height:400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url('ruler.jpg');
+	background-position:center bottom;
+	padding:50px;
+	text-align: center;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+/* Box for the logo */
+.tint{
+	width:100vw;
+	height:100vh;
+	position:fixed;
+	z-index:-10;
+	background-color: rgba(0, 0, 0, 0.472);
+	top:0%;
+	left:0%;
+}
+.wrapper{
+	width:50px;
+	height:auto;
+	top:10%;
+	right:10%;
+	position: fixed;
+}
+.wrapper-2{
+	width:25%;
+	height:auto;
+}
+.wrapper-3{
+	width:100%;
+	height:auto;
+}
+
+path.st0{
+	stroke:#35ffab;
+	fill:none;
+	stroke-dasharray: 1800;
+	opacity:10; 
+	animation-name: animate;
+	animation-duration: 5s;
+	animation-timing-function:cubic-bezier(0,.23,1,.1);
+}
+path.st0:hover{
+	stroke:#35ffab;
+	fill:#35ffab;
+	stroke-dasharray: 1800;
+	opacity:10; 
+	animation-name: animate;
+	animation-duration: 5s;
+	animation-timing-function:cubic-bezier(0,.23,1,.1);
+}
+path.st1{
+	stroke:#cfd9d8;
+	fill:none;
+	stroke-dasharray: 5000;
+	opacity:10; 
+	animation-name: animate4;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	
+}
+path.st2{
+	stroke:blue;
+	fill:none;
+	stroke-dasharray: 12000; 
+	animation-name: animate2;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function:ease-in-out;
+}
+
+path.st3{
+	stroke:#ff1f6d;
+	fill:none;
+	stroke-dasharray: 1800;
+	animation-name: animate2;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-timing-function:ease-in-out;
+}
+
+
+
+@keyframes animate{
+	0%{
+		opacity:0;
+		fill: none;
+		stroke-dashoffset: 1800;
+	}
+	30%{
+		opacity:10;
+		fill: none;
+		stroke-dashoffset: 1800;
+	}
+	90%{
+		
+	}
+	100%{
+		opacity:10;
+		stroke-dashoffset:0;
+	}
+	
+	
+}
+@keyframes animate3{
+	0%{
+		fill: none;
+		stroke-dashoffset: 1800;
+	}
+	50%{
+
+		fill: #cfd9d8;
+		stroke-dashoffset: 1800;
+	}
+
+	100%{
+		fill: none;
+		stroke-dashoffset:0;
+	}
+	
+	
+}
+@keyframes animate2{
+	0%{
+		fill: none;
+		stroke-dashoffset: 0;
+	}
+	50%{
+
+		fill: none;
+		stroke-dashoffset: 12000;
+		stroke-dasharray: 12000;
+	}
+
+	100%{
+		stroke-dashoffset:0;
+	}
+	
+	
+}@keyframes animate4{
+	0%{
+		fill: none;
+		stroke-dashoffset: 0;
+		stroke-dasharray: 1;
+		opacity: 0;
+	}
+	50%{
+
+		fill: none;
+		stroke-dashoffset: 10000;
+		stroke-dasharray: 18000;
+		opacity:100;
+		
+	}
+	
+	100%{
+		stroke-dashoffset:0;
+		opacity:0;
+	}
+	
+	
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+	body{
+		background-color: #262626;
+	}
+	section{
+		width:100%;
+		padding:0;
+		margin:0;
+		display:inline-flex;
+	}
+	
+	.channel{
+		padding:0;
+		
+	}
+	
+	
+	
+	
+/*Paragraphs!*/
+
+	p{
+		font-family: 'Barlow', sans-serif;
+		font-weight:400;
+		font-size:1em;
+		color:#35ffab;
+		margin:10px;
+		line-height: 1.5em;
+		width:90%;
+}
+	p.pro{
+		font-family: 'Barlow', sans-serif;
+		font-weight:400;
+		font-size:1em;
+		color:blue;
+		margin:10px;
+		line-height: 1.5em;
+		width:60%;
+	
+	}
+	p.code{
+		font-family: 'C404BoldOnly-Regular-2', sans-serif;
+		font-weight:600;
+		font-size:7em;
+		color:blue;
+		margin:20px;
+		text-align: center;
+		letter-spacing: .1em;
+		line-height: 1em;
+		width:100%;
+		
+	}
+	p.stuhl{
+		font-family: 'Barlow', sans-serif;
+		font-weight:400;
+		font-size:1em;
+		color:#cfd9d8;
+		margin:10px;
+		line-height: 1.5em;
+		width:60%;
+
+}
+	p.lolla{
+		font-family: 'Barlow', sans-serif;
+		font-weight:400;
+		font-size:1em;
+		color:#ff1f6d;
+		margin:10px;
+		line-height: 1.5em;
+		width:60%;
+	
+	}
+	/* Headers! */
+	
+h3.pro{
+	width:100%;
+	text-align:center;
+	font-family: 'Barlow', sans-serif;
+	font-weight:700;
+	font-size:3em;
+	color:blue;
+}
+	/*Circles again (sorry this shit is a whole mess again!)*/
+	
+#circle-1{
+	width:1%;
+	border:1px solid #35ffab;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: glow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-1:hover{
+	width:1%;
+	background-color:#35ffab;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-2{
+	width:1%;
+	border:1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: glow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-2:hover{
+	width:1%;
+	background-color:#35ffab;
+	border: 1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-3{
+	width:1%;
+	border:1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: glow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-3:hover{
+	width:1%;
+	background-color:#35ffab;
+	border: 1px solid #35ffab;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-4{
+	width:1%;
+	border:1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: blueglow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-4:hover{
+	width:1%;
+	background-color:blue;
+	border: 1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-5{
+	width:1%;
+	border:1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: blueglow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-5:hover{
+	width:1%;
+	background-color:blue;
+	border: 1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-6{
+	width:1%;
+	border:1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: blueglow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-6:hover{
+	width:1%;
+	background-color:blue;
+	border: 1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-7{
+	width:1%;
+	border:1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: blueglow;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+	
+#circle-7:hover{
+	width:1%;
+	background-color:blue;
+	border: 1px solid blue;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-8{
+	width:1%;
+	border:1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: stuhl;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-8:hover{
+	width:auto;
+	margin:50px;
+	padding:20px;
+	background-color:#cfd9d8;
+	border: 1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-9{
+	width:1%;
+	border:1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: stuhl;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-9:hover{
+	width:1%;
+	background-color:#cfd9d8;
+	border: 1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-10{
+	width:1%;
+	border:1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: stuhl;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-10:hover{
+	width:1%;
+	background-color:#cfd9d8;
+	border: 1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-11{
+	width:1%;
+	border:1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: stuhl;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-11:hover{
+	width:1%;
+	background-color:#cfd9d8;
+	border: 1px solid #cfd9d8;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-12{
+	width:1%;
+	border:1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: lolla;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-12:hover{
+	width:1%;
+	background-color:#ff1f6d;
+	border: 1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-13{
+	width:1%;
+	border:1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: lolla;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-13:hover{
+	width:1%;
+	background-color:#ff1f6d;
+	border: 1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-14{
+	width:1%;
+	border:1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+	animation-name: lolla;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+#circle-14:hover{
+	width:1%;
+	background-color:#ff1f6d;
+	border: 1px solid #ff1f6d;
+	border-radius:100%;
+	transition:.25s;
+	transition-timing-function: cubic-bezier(25,0,1,.1);
+}
+
+@keyframes glow{
+	0%{
+		
+		border:1px solid #35ffab;
+		
+		
+	}
+	50%{
+		
+		background-color:#35ffab ;
+	}
+	
+	100%{
+		
+		border:1px solid #35ffab;
+		
+	}
+	
+	
+}
+
+@keyframes blueglow{
+	0%{
+		
+		border:1px solid blue;
+		
+		
+	}
+	50%{
+		
+		background-color:blue ;
+	}
+	
+	100%{
+		
+		border:1px solid blue;
+		
+	}
+	
+	
+}
+@keyframes stuhl{
+	0%{
+		
+		border:1px solid #cfd9d8;
+		
+		
+	}
+	50%{
+		
+		background-color:#cfd9d8 ;
+	}
+	
+	100%{
+		
+		border:1px solid #cfd9d8;
+		
+	}
+	
+	
+}
+
+@keyframes lolla{
+	0%{
+		
+		border:1px solid #ff1f6d;
+		
+		
+	}
+	50%{
+		
+		background-color:#ff1f6d ;
+	}
+	
+	100%{
+		
+		border:1px solid #ff1f6d;
+		
+	}
+	
+	
+}
+	}
